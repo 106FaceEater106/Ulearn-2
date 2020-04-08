@@ -1,4 +1,7 @@
-﻿namespace Mazes
+﻿using System;
+using System.Windows.Forms;
+
+namespace Mazes
 {
     public static class SnakeMazeTask
     {
@@ -14,8 +17,13 @@
         {
             robot.MoveTo(Direction.Down);
         }
+        // J: Методы SnakeMoveToDIRECTION могут быть заменены одним более общим методом
+
         public static void MoveOut(Robot robot, int width, int height)
         {
+            // J: нарушение условия задачи:
+                // "Запрещено иметь методы длиннее 12 строк кода"
+            
             while (true)
             {
                 for (int i = 0; i < width - 3; i++)
@@ -32,6 +40,14 @@
                 SnakeMoveToDown(robot);
                 SnakeMoveToDown(robot);
             }
+        }
+
+        
+        public static void MoveFor(Robot robot, int stepCount, Direction direction)
+        {
+            // Замени эту строку кодом, который заставит 
+            // робота совершить stepCount шагов в направлении direction
+            throw new NotImplementedException();
         }
     }
 }
