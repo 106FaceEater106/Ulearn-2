@@ -1,0 +1,12 @@
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\HarryPotterText.txt
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\TextAnalysis.exe.config
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\TextAnalysis.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\TextAnalysis.pdb
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\nunit.framework.dll
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\bin\Debug\nunitlite.dll
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.csprojAssemblyReference.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.Properties.Resources.resources
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.csproj.GenerateResource.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.csproj.CopyComplete
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\TextAnalysis\obj\Debug\TextAnalysis.pdb
