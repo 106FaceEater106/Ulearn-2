@@ -10,9 +10,24 @@ namespace VectorTask
     public class Vector {
         public double X = 0;
         public double Y = 0;
+
+        public double GetLength()
+        {
+            return Geometry.GetLength(this);
+        }
+
+        public Vector Add(Vector vector)
+        {
+            return Geometry.Add(vector, this);
+        }
+
+        public bool Belongs(Segment segment)
+        {
+            return Geometry.IsVectorInSegment(this, segment);
+        }
     }
 
-    public class Geometry
+    public static class Geometry
     {
         //возвращает длину переданного вектора
         public static double GetLength(Vector vector)
@@ -65,7 +80,7 @@ namespace VectorTask
             return Geometry.GetLength(vector);
         }
 
-        public bool IsVectorInSegment(Vector vector)
+        public bool Contains(Vector vector)
         {
             return Geometry.IsVectorInSegment(vector, this);
         }
