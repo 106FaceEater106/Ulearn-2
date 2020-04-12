@@ -1,0 +1,13 @@
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.csprojAssemblyReference.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\MainWindow.g.cs
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting_MarkupCompile.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting_MarkupCompile.lref
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\bin\Debug\HotelAccounting.exe.config
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\bin\Debug\HotelAccounting.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\bin\Debug\HotelAccounting.pdb
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\MainWindow.baml
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.g.resources
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.Properties.Resources.resources
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.csproj.GenerateResource.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\ScoreHotel\obj\Debug\HotelAccounting.pdb
