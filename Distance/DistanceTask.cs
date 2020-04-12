@@ -2,6 +2,8 @@
 
 namespace DistanceTask
 {
+    
+    //J: Списано. Но, вообще, я тоже его списал, не имею претензий.  
     public static class DistanceTask
     {
         public static double GetAkDot(double x, double ax, double y, double ay)
