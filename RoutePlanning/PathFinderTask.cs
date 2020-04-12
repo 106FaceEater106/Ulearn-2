@@ -22,6 +22,9 @@ namespace RoutePlanning
             var currentOrder = new int[position];
             Array.Copy(order, currentOrder, position);
             var pathLength = PointExtensions.GetPathLength(checkpoints, currentOrder);
+            // J: PointExtension - класс с расширениями. GetPathLength можно вызвать у checkpoints
+            // Подробнее:
+            //https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
 
             if (pathLength < shortestDistance)
             {
@@ -29,7 +32,8 @@ namespace RoutePlanning
                 {
                     shortestDistance = pathLength;
                     bestOrder = (int[])order.Clone();
-                    return order;
+                    return order; // Метод возвращает значение, которое не используется.
+                                  // Метод безболезненно может стать void.
                 }
 
 
@@ -44,7 +48,7 @@ namespace RoutePlanning
                 }
             }
 
-            return order;
+            return order; //
         }
     }
 }

@@ -10,10 +10,10 @@ namespace Recognizer
             var height = original.GetLength(1);
             var medianPixels = new double[width, height];
 
-            for (int x = 0; x < width; x++)
+            for (int x = 0; x < width; x++) // J: Используй var в циклах 
                 for (int y = 0; y < height; y++)
                     medianPixels[x, y] = GetMedianPixelValue(x, y, original);
-			return medianPixels;
+            return medianPixels;
 		}
 
         public static double GetMedianPixelValue(int x, int y, double[,] pixels)
@@ -22,6 +22,7 @@ namespace Recognizer
             var height = pixels.GetLength(1);
             var pixelValues = new List<double>();
 
+            // J: Создание этого массива - отдельная независимая операция, мы можем выделить под это метод, вызывать
             for (int i = 0; i < 3; i++)
                 for (int j = 0; j < 3; j++)
                     if (IsPixelInsideBoundaries(x - 1 + i, y - 1 + j, width, height))
@@ -29,13 +30,17 @@ namespace Recognizer
 
             pixelValues.Sort();
             if (pixelValues.Count % 2 == 1)
-                return pixelValues[pixelValues.Count / 2];
+                // J: pixelValues.Count / 2
+                // - это конкретный индекс, верно? Вместо того, чтобы писать это вновь и вновь, мы можем вынести это 
+                // значение в локальную переменную, в названии которой отразим какое по какому принципу оно было выбрано
+                return pixelValues[pixelValues.Count / 2]; 
             else
                 return (pixelValues[(pixelValues.Count / 2) - 1] + pixelValues[pixelValues.Count / 2]) / 2;
         }
 
         public static bool IsPixelInsideBoundaries(int x, int y, int width, int height)
         {
+            // J: Лучше (x >= 0 && y >= 0) && ... 
             return (x > -1 && y > -1) && (x < width && y < height);
         }
 	}

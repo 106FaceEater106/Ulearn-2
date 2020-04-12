@@ -67,6 +67,7 @@ namespace Autocomplete
 
     internal class AutocompleteTask
     {      
+        // J: Весьма хорошо
         public static string FindFirstByPrefix(IReadOnlyList<string> phrases, string prefix)
         {
             var index = LeftBorderTask.GetLeftBorderIndex(phrases, prefix, -1, phrases.Count) + 1;

@@ -11,6 +11,7 @@ namespace Autocomplete
             while (right - left > 1)
             {
                 var middle = left + (right - left) / 2;
+                // J: Здесь можно выделить вспомогательный метод для условия
                 if (string.Compare(prefix, phrases[middle], StringComparison.OrdinalIgnoreCase) >= 0
                    || phrases[middle].StartsWith(prefix))
                     left = middle;
