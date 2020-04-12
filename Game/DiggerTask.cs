@@ -298,7 +298,7 @@ namespace Digger
         }
 
 
-        static private bool LivePlayer()
+        static private bool IsPlayerAlive()
         {
             for (int i = 0; i < Game.MapWidth; i++)
                 for (int j = 0; j < Game.MapHeight; j++)
