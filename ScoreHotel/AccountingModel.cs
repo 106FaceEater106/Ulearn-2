@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 namespace HotelAccounting 
 {
-    //создайте класс AccountingModel здесь
-    //1. унаследованный от ModelBase
     class AccountingModel : ModelBase{
         
         private double price ; // цена за одну ночь
@@ -20,20 +18,24 @@ namespace HotelAccounting
        
 
             // Цена за ночь
-        public double Price{
-            get{
-                return price;
-            }
-            set{
-                if(value >= 0)
+        public double Price
+        {
+            get { return price; }
+            set
+            {
+                if (value >= 0)
                     price = value; // значение у поля price всегда положительное.
-                else throw new ArgumentException();  // поймали отрицательное число
+                else throw new ArgumentException(); // поймали отрицательное число
                 SetNewTotal();
                 Notify(nameof(Price)); // уведомление
             }
         }
 
-        // количество ночей
+        //
+        //
+        // J: Пожалуйста, пиши { и } с новой строки. Это распространенное соглашение, по крайней мере в C#
+        //
+        //
         public int NightsCount{
             get {
                 return nightsCount;
@@ -53,6 +55,15 @@ namespace HotelAccounting
             } 
             set{
                 discount = value;
+                
+                // J: float и double хранят значения лишь приблизительно.
+                // Пример:
+                // var x = 0.01;
+                // var y = 0.01;
+                // if (x == y)
+                //    Плохо. Может быть FALSE
+                // if(Math.Abs(x - y) < ТОЧНОСТЬ)
+                //    Лучше!
                 if(discount != ((-1) * Total / (Price * NightsCount) + 1) * 100)
                    SetNewTotal();
                 Notify(nameof(Discount));
