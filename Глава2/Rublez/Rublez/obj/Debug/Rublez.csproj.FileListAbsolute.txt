@@ -1,0 +1,6 @@
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\bin\Debug\Rublez.exe.config
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\bin\Debug\Rublez.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\bin\Debug\Rublez.pdb
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\obj\Debug\Rublez.csprojAssemblyReference.cache
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\obj\Debug\Rublez.exe
+C:\Users\Andrey Evtukhov\Desktop\Ulearn\Глава2\Rublez\Rublez\obj\Debug\Rublez.pdb
